@@ -1,0 +1,9 @@
+README
+Zachary Seselja
+V00775627
+
+P1 README:
+This project is a simple web server that only takes in GET requests.
+1. Run the Makefile: make
+2. Start the server with a port number and directory: ./sws 32214 /
+3. Start another terminal and connect it to the web server: nc -u -s  192.168.1.100 10.10.1.100 32214 
